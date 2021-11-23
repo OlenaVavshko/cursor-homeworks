@@ -40,14 +40,19 @@
                     <p>Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours</p>
                 </div>
                 <div class="form2">
-                    <div class="box1"><span class="inside1">First name</span></div>
-                    <div class="box2"><span class="inside1">Last name</span></div>
-                    <div class="box3"><span class="inside2">Phone number</span></div>
-                    <div class="box4">
-                        <span class="inside2">Select Service</span>
-                        <ion-icon name="chevron-down-outline" class="chevron"></ion-icon>
+                    <form>
+                        <input type=text class="box1" name="name" value="" placeholder="First name" required/>
+                        <input type=text class="box2" name="name" value="" placeholder="Last name" required/>
+                        <input type=tel class="box3" name="phone" value="" placeholder="Phone number"/>
+                        <div class="box4">
+                        <select id="service" name="service">
+                            <option selected disabled>Select service</option>
+                            <option value="Service1">Service2</option>
+                            <option value="Service2">Service3</option>
+                        </select>
                         </div>
-                    <button class="btn"><span class="inside3">Submit</span></button>
+                    <button type="submit" class="btn"><span class="inside3">Submit</span></button>
+                    </form>
                 </div>
             </div>
     
