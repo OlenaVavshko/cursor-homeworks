@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+        <table class="table">
+            <caption>Table 1</caption>
+                <thead>
+                    <tr>
+                        <th>
+                            Name
+                                <ion-icon name="caret-down-outline" class="icon"></ion-icon>
+                        </th>
+
+                        <th>
+                            Date
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>File.pdf</td>
+                        <td class="date">
+                            3mins ago
+                                <ion-icon name="ellipsis-horizontal-outline" class="ellipsis"></ion-icon>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>File.pdf</td>
+                        <td class="date">
+                            Yesterday <ion-icon name="ellipsis-horizontal-outline" class="ellipsis"></ion-icon>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>File.pdf</td>
+                        <td class="date">
+                            June 1, 2019 <ion-icon name="ellipsis-horizontal-outline" class="ellipsis"></ion-icon>
+                        </td>
+                    </tr>
+                </tbody>
+        </table>
+
+        <table class="table">
+           <caption>Table 2</caption>
+              <thead>
+                <tr>
+                   <th>
+                        <input name="name" type="checkbox" value="1" checked>
+                            Name
+                                <ion-icon name="caret-down-outline"></ion-icon>
+                    </th>
+                    <th>
+                        Date
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                 <td>
+                     <input name="file" type="checkbox" value="2"> File.pdf 
+                </td>
+                 
+                <td class="date">
+                    3mins ago
+                        <ion-icon name="ellipsis-horizontal-outline" class="ellipsis"></ion-icon>
+                </td>
+              </tr>
+
+                <tr>
+                    <td>
+                         <input name="file" type="checkbox" value="3" checked>File.pdf
+                     </td>
+
+                   <td class="date">
+                        Yesterday
+                        <ion-icon name="ellipsis-horizontal-outline" class="ellipsis"></ion-icon>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input name="file" type="checkbox" value="4"> 
+                        File.pdf
+                    </td>
+                    <td class="date">June 1, 2019 <ion-icon name="ellipsis-horizontal-outline" class="ellipsis"></ion-icon></td>
+                </tr>
+            </tbody>
+    </table>
+
+    <table class="table">
+            <caption>Table 3</caption>
+            <thead>
+                <tr>
+                    <th>
+                        Name <ion-icon name="caret-down-outline"></ion-icon>
+                    </th>
+
+                    <th>
+                        <div class="datesearch">
+
+                            <div class="inside_date">
+                                 Date
+                            </div>
+
+                                <div class="searchform">
+                                    <ion-icon name="search-outline" class="search_icon"></ion-icon>
+                                    <form>
+                                        <input type="text" name="search" value="" placeholder="Search" class="searchbox">
+                                    </form>
+                                </div>
+                            </div>
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>
+                        <ion-icon name="file-tray-full-outline" class="file_icon"></ion-icon>
+                            File.pdf
+                    </td>
+
+                    <td class="date">
+                        3mins ago <ion-icon name="ellipsis-horizontal-outline" class="ellipsis"></ion-icon>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><ion-icon name="file-tray-full-outline"class="file_icon"></ion-icon>
+                        File.pdf
+                    </td>
+
+                    <td class="date">
+                        Yesterday <ion-icon name="ellipsis-horizontal-outline" class="ellipsis"></ion-icon>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <ion-icon name="file-tray-full-outline"class="file_icon"></ion-icon>
+                            File.pdf
+                    </td>
+
+                    <td class="date">
+                        June 1, 2019
+                            <ion-icon name="ellipsis-horizontal-outline" class="ellipsis"></ion-icon>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+    </html>
+    

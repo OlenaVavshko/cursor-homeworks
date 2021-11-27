@@ -1,0 +1,89 @@
+body {
+    background: #2c2c2c;  
+}
+
+caption {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.table {
+    color:#fafafa;
+    width:45%;
+    border:1px solid gray;
+    margin-top:20px;
+    margin-left:10px;
+    border-collapse: collapse;
+}
+
+
+thead tr th {
+    border-bottom:1px solid gray;
+    text-align: left;
+    padding:20px;
+    border-collapse;  
+    
+}
+
+tbody tr td {
+    border-bottom:1px solid gray;
+    border-collapse: collapse;
+    text-align: left;
+    padding:20px;    
+}
+
+.date {
+    color:gray;
+    width:50%;
+    
+}
+
+.ellipsis {
+    float:right;
+}
+
+.icon {
+    margin-top:10px;
+}
+
+.inside_date {
+    float:left;
+}
+.searchform {
+    background:gray;
+    border:none;
+    width:50%;
+    float:left;
+    margin-left:100px;
+    padding:5px;
+}
+
+.search_icon {
+    float:left;
+}
+
+.searchbox {
+    background:none;
+    border:none;
+    width:50%;
+    float:left;
+}
+
+::placeholder {
+    color:whitesmoke;
+    
+}
+
+.file_icon {
+    color:#0096FF;
+}
+
+.clearfix {
+    clear:both;
+}
