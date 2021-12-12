@@ -911,6 +911,10 @@
       align-items: flex-start;
     }
 
+    .section7 h1 {
+      align-self: center;
+    }
+
     .footer-image {
       grid-area: box1;
     }
@@ -973,12 +977,10 @@
 
   .footer-content1 {
     text-align: center;
-   
   }
 
   .footer-content2 {
-    align-self: center;
-    
+    align-self: center; 
   }
 
   .footer-content3 {
