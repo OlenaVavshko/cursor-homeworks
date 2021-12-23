@@ -1,0 +1,151 @@
+.header {
+    margin-top: 20px;
+}
+
+.logo {
+    font-family: 'Billabong', sans-serif;
+    font-size: 40px;
+}
+
+.search-box {
+    width: 65%;
+}
+
+.search-btn {
+    border: none;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.media {
+    font-size: 20px;
+}
+
+
+.msg-ntf {
+    border-radius: 50%;  
+}
+
+.avatar {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/checker.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 154px;
+    height: 153px;
+    border-radius: 50%;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 20% 20% 60%;
+    grid-template-areas: "item1 item2 item3"
+                        "item4 item5 item6"
+                        "item7 item7 item7";
+    align-items: center;
+}
+
+.name {
+    grid-area: item1;
+}
+
+.follow {
+    grid-area: item2;
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.dots {
+    grid-area: item3;
+    font-size: 50px;
+    
+}
+
+.posts {
+    grid-area: item4;
+}
+
+.followers {
+    grid-area: item5;
+}
+
+.following {
+    grid-area: item6;
+}
+
+.paragraph {
+    grid-area: item7;
+}
+
+.link {
+    color: #133768;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.highlights {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.hlt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.hlt-name {
+    color: #262626;
+    font-size: 14px;
+    line-height: 17px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.highlight {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/checker.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 5px solid #DBDBDB;
+}
+
+.feed {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.instagram-post {
+   
+    height: 298px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/checker-rec.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.i-posts {
+    margin-top: 20px;
+    gap: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
