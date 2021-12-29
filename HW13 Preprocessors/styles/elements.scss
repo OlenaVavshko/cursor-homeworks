@@ -1,0 +1,27 @@
+@mixin button {
+      cursor: pointer;
+    font: {
+        family: 'Roboto', sans-serif;
+        weight: 500;
+        size: 16px;
+    }
+        line-height: 26px;
+        text-align: center;
+        padding: 15px 30px;
+        border-radius: 2px;
+  }
+
+  @mixin links {
+    a:link, a:visited, a:active, a:hover {
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: $primaryText;
+    }
+}
+
+
+ 
